@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benim Kişisel Blogum</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a href="#ana-icerik" class="skip-link">Ana içeriğe atla</a>
+    <h1 class="sr-only"> Benim Kişisel Blogum</h1>
+    <header id="site-header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" alt="Blog Logosu" width="40" height="40">
+                <span>Benim Blogum</span>
+            </a>
+            <nav id="ana-menu">
+                <a href="index.html" class="menu-link aktif"> Ana Sayfa</a>
+                <a href="pages/hakkimda.html" class="menu-link ">Hakkımda</a>
+                <a href="pages/iletisim.html" class="menu-link ">İletişim</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="ana-icerik">
+        <div class="container">
+            <section id="son-yazilar">
+                <h2>Son Yazılar</h2>
+                <div class="yazi-grid">
+                    <article class="yazi-karti">
+                        <img src="img/html-kapak.jpg"
+                         alt="HTML konulu yazı kapak görseli"
+                         width="300" height="200">
+                         <h3 class="yazi-baslik">HTML Nedir ve Neden Önemlidir?</h3>
+                         <p class="yazi-tarih"> 15 Eylül 2025</p>
+                         <p class="yazi-ozet">HTML, web sayfalarının iskeletini oluşturan biçimlendirme dilidir... </p>
+                         <span class="yazilar/html-nedir.html">HTML</span>
+                            <a href="yazilar/html-nedir.html"
+                               class="devamini-oku">Devamını Oku</a>
+                    </article>
+                </div>
+                <p class="yakinda-notu">Yeni yazılar yakında eklenecek... </p>
+            </section>
+            <aside id="kenar-cubugu">
+                <h3>Hakkımda</h3>
+                <p>Nallıhan MYO Bilgisayar Programcılığı öğrencisiyim.
+                    Web geliştirme öğreniyorum. </p>
+                    <h3>Kategoriler</h3>
+                    <ul class="kategori-listesi">
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                    </ul>
+            </aside>
+        </div>
+    </main>
+    <footer id="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Benim Kişisel Blogum. Nallıhan MYO.</p>
+            <nav class="footer-menu">
+                <a href="index.html">Ana Sayfa</a>
+                <a href="pages/hakkimda.html">Hakkımda</a>
+                <a href="pages/iletisim.html">İletişim</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
